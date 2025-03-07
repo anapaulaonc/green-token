@@ -1,0 +1,20 @@
+{
+  "canisters": {
+
+    "auth": {
+      "main": "pages/auth/main.mo",
+      "type": "motoko"
+    },
+    "token": {
+      "main": "pages/token/main.mo",
+      "type": "motoko"
+    }
+    
+  },
+  "defaults": {
+    "build": {
+      "args": "--hide-warnings",
+      "packtool": "mops sources"
+    }
+  }
+}
