@@ -168,6 +168,3 @@ public shared func mint(owner : Principal, amount : Nat) : async Result<(), Text
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias e correções de bugs.
 
-## Licença
-
-[Especifique a licença aqui, por exemplo MIT, Apache, etc.]
