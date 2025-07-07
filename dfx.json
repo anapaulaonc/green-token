@@ -1,6 +1,5 @@
 {
   "canisters": {
-
     "auth": {
       "main": "pages/auth/main.mo",
       "type": "motoko"
@@ -8,8 +7,12 @@
     "token": {
       "main": "pages/token/main.mo",
       "type": "motoko"
+    },
+    "icrc1_ledger_canister": {
+      "type": "custom",
+      "candid": "https://raw.githubusercontent.com/dfinity/ic/ca8847547d327ce8a3bd81d25a590e01da1a3af5/rs/ledger_suite/icrc1/ledger/ledger.did",
+      "wasm": "https://download.dfinity.systems/ic/ca8847547d327ce8a3bd81d25a590e01da1a3af5/canisters/ic-icrc1-ledger.wasm.gz"
     }
-    
   },
   "defaults": {
     "build": {

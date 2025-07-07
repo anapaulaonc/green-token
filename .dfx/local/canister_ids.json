@@ -5,6 +5,9 @@
   "auth": {
     "local": "uxrrr-q7777-77774-qaaaq-cai"
   },
+  "icrc1_ledger_canister": {
+    "local": "ulvla-h7777-77774-qaacq-cai"
+  },
   "token": {
     "local": "u6s2n-gx777-77774-qaaba-cai"
   }
