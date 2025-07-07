@@ -1,0 +1,27 @@
+type Result_1 = 
+ variant {
+   err: text;
+   ok: Member;
+ };
+type Result = 
+ variant {
+   err: text;
+   ok;
+ };
+type Member = 
+ record {
+   age: nat;
+   name: text;
+ };
+service : {
+  addMember: (principal, Member) -> (Result);
+  getAllMembers: () -> (vec Member) query;
+  getAllMembersWithPrincipals: () -> (vec record {
+                                            principal;
+                                            Member;
+                                          }) query;
+  getMember: (principal) -> (Result_1) query;
+  numberOfMembers: () -> (nat) query;
+  removeMember: (principal) -> (Result);
+  updateMember: (principal, Member) -> (Result);
+}
